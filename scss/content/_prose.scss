@@ -77,7 +77,7 @@
     h5,
     h6 {
       &:not(:first-child) {
-        margin-top: calc(var(--content-gap) * 1.25);
+        margin-top: var(--content-gap);
       }
     }
 
